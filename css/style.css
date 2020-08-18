@@ -1,0 +1,136 @@
+/* main color - #000000; */
+/* p color - #7D7987; */
+/* nav color - #1F1534 */
+/* button color #458FF6 */
+/* footer color- #FFFFFF */
+/* background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%); */
+/* footer background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%); */
+
+ul {
+  list-style: none;
+}
+:root {
+  --main-color: #000000;
+  --p-color: #7d7987;
+  --nav-color: #1f1534;
+  --button-color: #458ff6;
+  --footertext-color: #ffffff;
+  --nav-links: #1f1534;
+}
+
+body {
+  color: var(--p-color);
+  font-family: 'Mulish', sans-serif;
+}
+/* site-nav /?????/*/
+.logo {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+
+  color: #233348;
+}
+.nav.links {
+  color: var(--nav-links);
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.5;
+}
+
+.links:hover,
+.links:active,
+.links:focus {
+  color: var(--nav-color);
+}
+/* hero */
+.hero-title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+}
+.hero-text {
+  color: var(--p-color);
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+}
+.hero-button {
+  background: var(--button-color);
+  color: var(--footertext-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+}
+/* services */
+.services-title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+  text-align: center;
+}
+.services-text {
+  color: var(--p-color);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+.serc-imgtitle {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 56px;
+}
+.serv-imgtext {
+  color: var(--p-color);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+.servbuttom {
+  color: var(--button-color);
+}
+
+/* Leading healthcare providers */
+.leading-title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 56px;
+}
+.leading-text {
+  color: var(--p-color);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+.leading-link {
+  color: var(--button-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+}
+/* download our app */
+.downl-title{
+    color: var(--main-color);
+    font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+}
+.dowln-text{
+    color: var(--p-color);
+    font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+/* ??? */
+.dowln-link{
+    color: var(--button-color);
+    font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+}
