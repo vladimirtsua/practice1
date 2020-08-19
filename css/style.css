@@ -113,24 +113,24 @@ body {
   line-height: 60px;
 }
 /* download our app */
-.downl-title{
-    color: var(--main-color);
-    font-weight: 700;
+.downl-title {
+  color: var(--main-color);
+  font-weight: 700;
   font-size: 36px;
   line-height: 48px;
 }
-}
-.dowln-text{
-    color: var(--p-color);
-    font-weight: 300;
+
+.dowln-text {
+  color: var(--p-color);
+  font-weight: 300;
   font-size: 18px;
   line-height: 30px;
 }
 
 /* ??? */
-.dowln-link{
-    color: var(--button-color);
-    font-weight: 700;
+.dowln-link {
+  color: var(--button-color);
+  font-weight: 700;
   font-size: 18px;
   line-height: 60px;
 }
