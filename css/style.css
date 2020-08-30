@@ -17,6 +17,13 @@ ul {
   --footertext-color: #ffffff;
   --nav-links: #1f1534;
 }
+.conteiner {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 body {
   color: var(--p-color);
